@@ -1,7 +1,3 @@
-#ifndef Appointment_hpp
-#define Appointment_hpp
-#ifndef Person_hpp
-#define Person_hpp
 #include <iostream>
 #include <string>
 #include "Person.h"
@@ -23,5 +19,3 @@ class Customer: public Person{
     bool operator > (Customer); // Returns true if time of object1 is more than object2
     bool operator == (Customer); // Returns true if times are equal
 };
-#endif
-#endif
